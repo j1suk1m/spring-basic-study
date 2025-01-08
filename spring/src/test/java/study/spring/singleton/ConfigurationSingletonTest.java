@@ -29,4 +29,16 @@ class ConfigurationSingletonTest {
         assertThat(memberRepository2).isSameAs(memberRepository);
     }
 
+    @Test
+    void CGLIB_프록시_적용_테스트() {
+        // given
+        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+
+        // when
+        AppConfig appConfig = ac.getBean(AppConfig.class);
+
+        // then
+        System.out.println("appConfig = " + appConfig.getClass());
+    }
+
 }
