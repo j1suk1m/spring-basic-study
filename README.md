@@ -22,3 +22,11 @@
 - [스프링 빈 조회 - 상속 관계](https://github.com/j1suk1m/spring-basic-study/commit/c1a5d04eb199bcd19470e0c5552d990d91bb1310)
 - [다양한 설정 형식 지원 - 자바 코드, XML](https://github.com/j1suk1m/spring-basic-study/commit/cbedb75c3722c142fd3d197530f28b7dd44bbedd)
 - [스프링 빈 설정 메타 정보 - BeanDefinition](https://github.com/j1suk1m/spring-basic-study/commit/12b78fd72038ba36e08cd7bd8e636e380b9decaf)
+
+### section 6: 싱글톤 컨테이너
+- [웹 애플리케이션과 싱글톤](https://github.com/j1suk1m/spring-basic-study/commit/6536997995b122422c84a70757c269545ce069a8)
+- [싱글톤 패턴](https://github.com/j1suk1m/spring-basic-study/commit/5380aed80800346708f77df981ee7923c674ff33)
+- [싱글톤 컨테이너](https://github.com/j1suk1m/spring-basic-study/commit/51c4b6cca4e80245bc6711525ae8d0538b78d4d5)
+- [싱글톤 방식의 주의점](https://github.com/j1suk1m/spring-basic-study/commit/32e8542fe4d2fa4b9a9112a515a6a013edd17092)
+- [@Configuration과 싱글톤](https://github.com/j1suk1m/spring-basic-study/commit/fed74d5ec951bec7da5d53f6ccffac55d5493bf4)
+- [@Configuration과 바이트 코드 조작의 마법](https://github.com/j1suk1m/spring-basic-study/commit/a2f3b8e2f398046dac6a7a54ef745f3199b94d8e)
