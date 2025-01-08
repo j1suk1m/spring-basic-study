@@ -20,4 +20,14 @@ class SingletonTest {
         Assertions.assertThat(memberService1).isNotSameAs(memberService2);
     }
 
+    @Test
+    void 싱글톤_적용_테스트() {
+        // when
+        SingletonService singletonService1 = SingletonService.getInstance();
+        SingletonService singletonService2 = SingletonService.getInstance();
+
+        // then
+        Assertions.assertThat(singletonService1).isSameAs(singletonService2);
+    }
+
 }
