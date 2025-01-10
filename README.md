@@ -30,3 +30,7 @@
 - [싱글톤 방식의 주의점](https://github.com/j1suk1m/spring-basic-study/commit/32e8542fe4d2fa4b9a9112a515a6a013edd17092)
 - [@Configuration과 싱글톤](https://github.com/j1suk1m/spring-basic-study/commit/fed74d5ec951bec7da5d53f6ccffac55d5493bf4)
 - [@Configuration과 바이트 코드 조작의 마법](https://github.com/j1suk1m/spring-basic-study/commit/a2f3b8e2f398046dac6a7a54ef745f3199b94d8e)
+
+### section 7: 컴포넌트 스캔
+- [컴포넌트 스캔과 의존 관계 자동 주입 시작하기](https://github.com/j1suk1m/spring-basic-study/commit/608aef3f43fa7e6d952ed941d18b45a5238d6282)
+- [필터](https://github.com/j1suk1m/spring-basic-study/commit/c88940d9dee4cda6ff0aba4d89a21018888aa345)
