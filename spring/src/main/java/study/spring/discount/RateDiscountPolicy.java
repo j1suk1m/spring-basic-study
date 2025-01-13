@@ -1,11 +1,13 @@
 package study.spring.discount;
 
 import lombok.Getter;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import study.spring.member.Grade;
 import study.spring.member.Member;
 
 @Component
+@Primary
 @Getter
 public class RateDiscountPolicy implements DiscountPolicy {
     private final int discountPercent = 10;
