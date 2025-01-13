@@ -34,3 +34,10 @@
 ### section 7: 컴포넌트 스캔
 - [컴포넌트 스캔과 의존 관계 자동 주입 시작하기](https://github.com/j1suk1m/spring-basic-study/commit/608aef3f43fa7e6d952ed941d18b45a5238d6282)
 - [필터](https://github.com/j1suk1m/spring-basic-study/commit/c88940d9dee4cda6ff0aba4d89a21018888aa345)
+
+### section 8: 의존 관계 자동 주입
+- [옵션 처리](https://github.com/j1suk1m/spring-basic-study/commit/70acb00576d4ec208556cc11f3fc32d43c6be6e4)
+- [롬복과 최신 트렌드](https://github.com/j1suk1m/spring-basic-study/commit/32a9ede4c7009ff93066f48261cacafd733b5d16)
+- [@Autowired 필드 명, @Qualifier, @Primary](https://github.com/j1suk1m/spring-basic-study/commit/f7740d253b42abc528471b6e7efeb13a7b02f201)
+- [애노테이션 직접 만들기](https://github.com/j1suk1m/spring-basic-study/commit/e9f6a6e586382b01df788b731063c8da0c64c781)
+- [조회한 빈이 모두 필요할 때, List, Map](https://github.com/j1suk1m/spring-basic-study/commit/7edc33aff960bfcfc14bf28eeb0cbaf4e9569244)
