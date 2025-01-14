@@ -41,3 +41,9 @@
 - [@Autowired 필드 명, @Qualifier, @Primary](https://github.com/j1suk1m/spring-basic-study/commit/f7740d253b42abc528471b6e7efeb13a7b02f201)
 - [애노테이션 직접 만들기](https://github.com/j1suk1m/spring-basic-study/commit/e9f6a6e586382b01df788b731063c8da0c64c781)
 - [조회한 빈이 모두 필요할 때, List, Map](https://github.com/j1suk1m/spring-basic-study/commit/7edc33aff960bfcfc14bf28eeb0cbaf4e9569244)
+
+### section 9: 빈 생명 주기 콜백
+- [빈 생명 주기 콜백 시작](https://github.com/j1suk1m/spring-basic-study/commit/ef5ce2e658126c90634003832623c3f7c0708181)
+- [인터페이스 InitializingBean, DisposableBean](https://github.com/j1suk1m/spring-basic-study/commit/aab39609fc1066879f31753c7bcf4d185bb72c73)
+- [빈 등록 초기화, 소멸 메서드](https://github.com/j1suk1m/spring-basic-study/commit/b58b72c9da99926878c3d9ce0f6c52f1a279de00)
+- [애노테이션 @PostConstruct, @PreDestroy](https://github.com/j1suk1m/spring-basic-study/commit/e5ef6fb65116ef8cad569dc3123b20a6cf4c787c)
