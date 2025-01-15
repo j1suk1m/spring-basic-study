@@ -7,6 +7,7 @@ import jakarta.annotation.PreDestroy;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Scope;
@@ -51,15 +52,16 @@ class SingletonBeanWithPrototypeBeanTest {
         ClientBean clientBean2 = ac.getBean(ClientBean.class);
 
         // when & then
-        assertThat(clientBean2.executeLogic()).isEqualTo(2);
+        assertThat(clientBean2.executeLogic()).isEqualTo(1);
 
     }
 
     @RequiredArgsConstructor
     static class ClientBean {
-        private final PrototypeBean prototypeBean;
+        private final ObjectProvider<PrototypeBean> prototypeBeanProvider;
 
         public int executeLogic() {
+            PrototypeBean prototypeBean = prototypeBeanProvider.getObject();
             prototypeBean.addCount();
             return prototypeBean.getCount();
         }
