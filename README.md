@@ -47,3 +47,11 @@
 - [인터페이스 InitializingBean, DisposableBean](https://github.com/j1suk1m/spring-basic-study/commit/aab39609fc1066879f31753c7bcf4d185bb72c73)
 - [빈 등록 초기화, 소멸 메서드](https://github.com/j1suk1m/spring-basic-study/commit/b58b72c9da99926878c3d9ce0f6c52f1a279de00)
 - [애노테이션 @PostConstruct, @PreDestroy](https://github.com/j1suk1m/spring-basic-study/commit/e5ef6fb65116ef8cad569dc3123b20a6cf4c787c)
+
+### section 10: 빈 스코프
+- [프로토타입 스코프](https://github.com/j1suk1m/spring-basic-study/commit/286ffca70b3e1491d304e02765bf6a20e22ef7c6)
+- [프로토타입 스코프 - 싱글톤 빈과 함께 사용 시 문제점](https://github.com/j1suk1m/spring-basic-study/commit/5dddae9247dbf27011f86d436c92be1ca2f8efdd)
+- [프로토타입 스코프 - 싱글톤 빈과 함께 사용 시 Provider로 문제 해결](https://github.com/j1suk1m/spring-basic-study/commit/14fffe14ed39faba798006cc49c3edf5efdf0a41)
+- [request 스코프 예제 만들기](https://github.com/j1suk1m/spring-basic-study/commit/17728e1221d767c2aa86eac9e3461575051b9db2)
+- [스코프와 Provider](https://github.com/j1suk1m/spring-basic-study/commit/866f149fa664e0affc2db15e41e2440ad378952c)
+- [스코프와 프록시](https://github.com/j1suk1m/spring-basic-study/commit/96cbc8c756707b6d018f54d84f9890aec369d032)
